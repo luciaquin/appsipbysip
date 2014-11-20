@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>App Sip by Sip - Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/jquery.mobile-1.4.4.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body >
+
+<!--Arranca la Home-->
+<div id="home_app" data-role="page" class="bg_home">
+	<div data-role="main" data-fullscreen="true" >
+      <!--<p class="titulo">Sip by Sip</p><p class="subtitulo">-Tea House-</p>-->
+      <div class="center"><img class="img_index" src="img/logo.png" alt="logo sip by sip"></div>
+    	<div class="btn_entrar"><a href="#employeeListPage" class="ui-btn ui-corner-all super-padding-top" data-transition="fade">Entrar</a></div>
+  </div>
+
+</div>
+
+<!--Arranca el Listado de Blends-->
+<div id="employeeListPage" data-role="page" >
+
+	<div data-role="header" class="ui-header">
+		  	<div class="center_logo"><img class="logo" src="img/logo.png" alt="logo sip by sip"></div>
+		  	<a href="#" class="atras ui-btn ui-corner-all ui-icon-back header-icons" data-rel="back" data-transition="fade">Atr&aacute;s</a>
+  	</div>	
+
+  	<div data-role="content">
+	  	<h3>Anticipo Blends</h3>
+	  	<p class="bf_listablends">Enterate de todos los nuevos blends que Sip by sip va a lanzar antes de que salgan al mercado!</p>
+	  	
+			 <ul id="employeeList" data-role="listview"></ul>
+	    		
+	</div>
+</div>
+
+<!--Arranca la Descripcion del Blend-->
+<div id="detailsPage" data-role="page" data-add-back-btn="true">
+
+	<div data-role="header" class="ui-header">
+       <div class="center_logo"><img class="logo" src="img/logo.png" alt="logo sip by sip"></div>
+        <a href="#" class="atras ui-btn ui-corner-all ui-icon-back header-icons" data-rel="back" data-transition="fade">Atr&aacute;s</a>
+    </div>  
+
+  	<div data-role="content"> 
+        <h3 id="nombre"></h3>
+  		<div class="img_blend_centrar"><img id="imagen"/></div>
+	    <div id="detalles">
+       
+       <p id="descripcion"></p>
+
+       <p class="bold">Avisarme cuando este blend este disponible para la compra.</p>
+       <form id="formulario" method="post" action="enviado.html">
+          <label>Email:</label>
+          <input type="email" name="emailuser" placeholder="Ingrese su email" id="email">
+          <input type="hidden" id="idBlendHidden">
+          <input type="hidden" id="nombreBlendHidden">
+          <button data-theme="b" id="submit" type="submit">Submit</button>
+        </form>
+   </div>
+	 
+    <ul id="actionList" data-role="listview" data-inset="true"></ul>
+
+  </div>
+
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.4.4.js"></script>
+<script src="js/codigo.js"></script>
+</body>
+</html>
