@@ -2,9 +2,9 @@ $(document).ready(function(){
 
 
 
-	var serviceURL = "http://localhost/appsipbysip/services/";
+	/*var serviceURL = "http://localhost/appsipbysip/services/";*/
 
-	/*var serviceURL = "http://sip-by-sip.info/services/";*/
+	var serviceURL = "http://sip-by-sip.info/services/";
 
 	var blends;
 
