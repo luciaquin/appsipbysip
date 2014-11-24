@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
 
-	/*var serviceURL = "http://localhost/appsipbysip/services/";*/
+	
 
 	var serviceURL = "http://sip-by-sip.info/services/";
 
@@ -21,7 +21,6 @@ $(document).ready(function(){
 			$.each(blends, function(index, newblends) {
 				$('#employeeList').append('<li><a class="deonda" href="#" id="'+newblends.id+'">' +
 						'<img src="admin/' + newblends.ruta + '"/>' +
-						//'<img src="../admin/' + imagenes.ruta + '"/>' +
 						'<h4>' + newblends.blend + '</h4>' +
 						'<span class="ui-li-count">' + ">" + '</span></a></li>');
 			});
@@ -33,7 +32,7 @@ $(document).ready(function(){
 		console.log("goya puto");
 		blendId = this.id;
 		console.log(blendId);
-		$.getJSON(serviceURL + 'getBlend.php', {'idBlend': blendId}, showBlend)
+		$.getJSON(serviceURL + 'getblend.php', {'idBlend': blendId}, showBlend)
 		$.mobile.changePage("#detailsPage");
 	});
 
@@ -41,7 +40,7 @@ $(document).ready(function(){
 
 	////////////////////blend detail
 
-function showBlend(data){
+function showBlend(data){	
 	console.log("En funcion che: id " +data.blend.id);
 	$('#imagen').attr('src', 'admin/' + data.blend.ruta);
 	$('#nombre').text(data.blend.blend);

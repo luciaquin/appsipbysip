@@ -13,10 +13,7 @@ body{
 	background-color:#ececdd;
 }
 
-.center{
-	margin: 0 auto;
-	width:300px;
-}
+
 
 .img_index{
 	width:300px;
@@ -78,6 +75,7 @@ a{
 	border-bottom:2px solid;
 	border-bottom-color:#a7b4b2;
 	padding-top: 10px;
+	overflow:hidden;
 }
 
 .header-icons{
@@ -91,7 +89,8 @@ a{
 
 .center_logo{
 	width:202px;
-	margin: 0 auto;
+	float:right;
+	margin-right:15px;
 }
 
 .ui-li-thumb{
@@ -140,6 +139,11 @@ padding:1em;
 	padding-top: 15px;
 }
 
+.center{
+	margin: 0 auto;
+	width:300px;
+}
+
 .titulo{
 	margin-top: 8%;
 	font-size: 200%;
@@ -159,6 +163,7 @@ padding:1em;
 	width: 101px;
 	height: 36px;
 	margin: 0 auto;
+	padding:0;
 }
 
 .ui-input-text, .ui-input-search{
@@ -195,4 +200,3 @@ padding:1em;
 .bf_listablends{
 	margin-bottom: 40px;
 }
-
