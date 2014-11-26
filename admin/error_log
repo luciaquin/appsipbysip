@@ -4,3 +4,51 @@
 [20-Nov-2014 21:24:28 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
 [20-Nov-2014 21:24:28 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
 [20-Nov-2014 21:24:28 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:16:53 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:16:53 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:16:53 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:16:53 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:16:53 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:16:53 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:16:58 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:16:58 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:16:58 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:16:58 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:16:58 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:16:58 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:16:58 Etc/GMT+3] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'sipbysip'@'localhost' (using password: NO) in /home/sipbysip/public_html/www/admin/funciones.php on line 22
+[25-Nov-2014 22:16:58 Etc/GMT+3] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sipbysip/public_html/www/admin/funciones.php on line 33
+[25-Nov-2014 22:16:58 Etc/GMT+3] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sipbysip/public_html/www/admin/funciones.php on line 34
+[25-Nov-2014 22:17:06 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:06 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:06 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:06 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:06 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:06 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:10 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:10 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:10 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:10 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:10 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:10 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:11 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:11 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:11 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:11 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:11 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:11 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:15 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:15 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:15 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:15 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:15 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:15 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:15 Etc/GMT+3] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'sipbysip'@'localhost' (using password: NO) in /home/sipbysip/public_html/www/admin/funciones.php on line 22
+[25-Nov-2014 22:17:15 Etc/GMT+3] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/sipbysip/public_html/www/admin/funciones.php on line 33
+[25-Nov-2014 22:17:15 Etc/GMT+3] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/sipbysip/public_html/www/admin/funciones.php on line 34
+[25-Nov-2014 22:17:16 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:16 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:16 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/index.php on line 4
+[25-Nov-2014 22:17:16 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:16 Etc/GMT+3] PHP Warning:  include(../services/config.php): failed to open stream: No such file or directory in /home/sipbysip/public_html/www/admin/funciones.php on line 2
+[25-Nov-2014 22:17:16 Etc/GMT+3] PHP Warning:  include(): Failed opening '../services/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sipbysip/public_html/www/admin/funciones.php on line 2

@@ -32,7 +32,7 @@ $(document).ready(function(){
 		console.log("goya puto");
 		blendId = this.id;
 		console.log(blendId);
-		$.getJSON(serviceURL + 'getblend.php', {'idBlend': blendId}, showBlend)
+		$.getJSON(serviceURL + 'getBlend.php', {'idBlend': blendId}, showBlend)
 		$.mobile.changePage("#detailsPage");
 	});
 
@@ -40,13 +40,14 @@ $(document).ready(function(){
 
 	////////////////////blend detail
 
-function showBlend(data){	
-	console.log("En funcion che: id " +data.blend.id);
-	$('#imagen').attr('src', 'admin/' + data.blend.ruta);
-	$('#nombre').text(data.blend.blend);
-	$('#descripcion').text(data.blend.descripcion);
-	$("#idBlendHidden").val(data.blend.id);
-	$("#nombreBlendHidden").val(data.blend.blend);
+function showBlend(data){
+	var blend = data.item;	
+	/*console.log(blend);*/
+	$('#imagen').attr('src', 'admin/' + blend.ruta);
+	$('#nombre').text(blend.blend);
+	$('#descripcion').text(blend.descripcion);
+	$("#idBlendHidden").val(blend.id);
+	$("#nombreBlendHidden").val(blend.blend);
 }
 
 
